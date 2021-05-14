@@ -1,7 +1,7 @@
 # idadbg
 Compilation instructions for idadbg (ida pintool)
 # Disclaimer(s):
-From: https://www.hex-rays.com/wp-content/uploads/2019/12/pin_tutorial.pdf 
+From: https://www.hex-rays.com/wp-content/uploads/2019/12/pin_tutorial.pdf
 -"Before using the PIN tracer the PIN tool module (distributed only in source code form) must be
 built as the Intel PIN license disallows redistributing PIN tools in binary form"
 
@@ -11,8 +11,8 @@ In accordance with "Intel Bullshit" make sure you DO NOT download my ALREADY COM
 
 # Instructions:
 So if you decided not to download my sketchy dll here's what ya wanna do kiddos
-1. Download Pin Tool: https://software.intel.com/content/www/us/en/develop/articles/pin-a-binary-instrumentation-tool-downloads.html
-2. Download ida PIN tool(idadbg source): https://www.hex-rays.com/download-center/
+1. Download and Extract (to C:/$(PIN_ROOT) is best) Pin Tool: https://software.intel.com/content/www/us/en/develop/articles/pin-a-binary-instrumentation-tool-downloads.html
+2. Download and Extract ida PIN tool(idadbg source): https://www.hex-rays.com/download-center/
 3. Place extracted idapin directory in $(PIN_ROOT)/source/tools
 4. Disregard all ida documentation because it's dogshit and doesn't work
 5. Duplicate 'MyPinTool' directory after building it successfully as a test, keep a backup
